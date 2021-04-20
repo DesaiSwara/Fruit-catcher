@@ -40,7 +40,7 @@ class Form{
             player.updateCount(playerCount);
             this.greeting.html("Hello " + player.name)
             this.greeting.position(400,250);
-            this.greeting.style('color', 'black');
+            this.greeting.style('color', 'white');
             this.greeting.style('font-size', '100px');
         });
 
